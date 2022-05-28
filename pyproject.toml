@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rosoideae"
+version = "0.1.0"
+description = "ws281x LED strip controller with web-based GUI"
+authors = ["ribxne"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.78.0"
+uvicorn = "^0.17.6"
+rpi-ws281x = "^4.3.4"
+adafruit-circuitpython-neopixel = "^6.3.0"
+Adafruit-Blinka = "^7.3.0"
+"RPi.GPIO" = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

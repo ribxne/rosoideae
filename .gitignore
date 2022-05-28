@@ -1,0 +1,7 @@
+.vscode/
+poetry.lock
+server/config.json
+client/node_modules/
+client/public/build/
+client/package-lock.json
+server/__pycache__/
