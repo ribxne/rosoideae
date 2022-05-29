@@ -12,7 +12,7 @@ ws281x LED strip controller with web-based GUI for Raspberry Pi made using Svelt
 
 ## Usage
 
-> **Warning**
+> **Warning**  
 > The neopixel library requires root access
 
 - Clone the repository
@@ -31,7 +31,7 @@ ws281x LED strip controller with web-based GUI for Raspberry Pi made using Svelt
   sudo poetry run python -m server
   ```
 
-> **Note**
+> **Note**  
 > To change the base URL edit `client/src/request.js`
 
 ## To do
